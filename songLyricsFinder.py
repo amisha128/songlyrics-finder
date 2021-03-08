@@ -20,7 +20,7 @@ root.title("Lyrics Finder")
 root.resizable(0, 0)
 
 # Setting up background image and placing it
-bgImg = Image.open("Img/musicbg.jpg") # image path
+bgImg = Image.open("musicbg.jpg")
 bgPhoto = ImageTk.PhotoImage(bgImg)
 bgLbl = Label(root, image=bgPhoto)
 bgLbl.place(x=0, y=0, relwidth=1, relheight=1)
