@@ -28,6 +28,6 @@ Type in **powershell** or **command prompt(cmd)**:
 ![rsz_imp](https://user-images.githubusercontent.com/60878349/110454113-e191d480-80ec-11eb-83f5-f9952fa69011.png)
 * You just need to fill *APP NAME* and *APP WEBSITE URL* column. Write the name of your app in *APP NAME* and you can put your github address in *APP WEBSITE URL*. Click on *Save* and you will be taken to credentials page.
 * On credentials page click on **GENERATE ACCESS TOKEN**. Copy this generated token and paste it in your file where the code is like this-
-genius = lg.Genius('Put your generated token here', skip_non_songs=True, excluded_terms=["(Remix)", "(Live)"], remove_section_headers=True)
+genius = lg.Genius('<Put your generated token here>', skip_non_songs=True, excluded_terms=["(Remix)", "(Live)"], remove_section_headers=True)
                     
                         
