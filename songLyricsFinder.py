@@ -68,7 +68,7 @@ def show_lyrics():
     song_textbox.place(x=20, y=20)
 
     # Searching for song lyrics
-    genius = lg.Genius('k5xSXuJ5pvl3FeoHBO7AuenYt7BZDfMYdI4QkYMJBrcp8uY4SPSKCBKntUP80ku4',
+    genius = lg.Genius('<Put your generated token here>',
                         skip_non_songs=True, excluded_terms=["(Remix)", "(Live)"],
                         remove_section_headers=True)
 
